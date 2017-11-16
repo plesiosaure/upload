@@ -1,0 +1,22 @@
+{
+  "name": "upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plesiosaure/upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plesiosaure/upload/issues"
+  },
+  "homepage": "https://github.com/plesiosaure/upload#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
