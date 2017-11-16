@@ -15,7 +15,7 @@ router.post('/uploaddufichier', upload.array('monfichier', 4), function(req, res
   
   req.files.forEach(function(image){
  
-    if (image.size<(3*1024)){
+    if (image.size<(3*1024*1024)){
     //traitement du formulaire
   
     //déplacement fichier du tmp à public/images
